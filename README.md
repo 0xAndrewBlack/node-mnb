@@ -140,7 +140,7 @@ Install the latest (at least v12) node, and install the package shown below.
 Get current queryable currencies.
 
 ```json
-{
+[
   "HUF",
   "EUR",
   "AUD",
@@ -216,7 +216,7 @@ Get current queryable currencies.
   "XEU",
   "XTR",
   "YUD"
-}
+]
 ```
 
 ### getMnbRates()

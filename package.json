@@ -1,10 +1,10 @@
 {
 	"private": false,
 	"name": "node-mnb",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Node package that retrieves information from the Hungarian National Bank's (MNB) SOAP API.",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
 	"directories": {
 		"lib": "dist",
 		"test": "test"
