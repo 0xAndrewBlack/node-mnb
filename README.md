@@ -62,12 +62,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project started from a private software where i ned to communicate and query up to date exchange informations and it happened to be the MNB's SOAP API.
+The project started from a private software where I need to communicate and query up-to-date exchange information and it happened to be the MNB's SOAP API.
 
-Why i made it into a package?
+Why did I made it into a package?
 
 Here's why:
-* The SOAP protocol is kind of deprecated and clunky, i solve it by providing a cool package that gives you it in a JSON format, and some types for my beloved TypeScript fans. 💪
+* The SOAP protocol is kind of deprecated and clunky, I solve it by providing a cool package that gives you it in a JSON format, and some types for my beloved TypeScript fans. 💪
 * Built-in types and cool documentation, unlike the official docs that you can't find anywhere if you ain't doing a google dork. LOL!
 * I wanted to make a useful node package for a long time and this was a great opportunity. :smile:
 
@@ -89,14 +89,14 @@ The project is built with a few packages.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This project is not affiliated nor in contact of MNB.
+This project is not affiliated with nor in contact with MNB.
 The package is a basic SOAP API "proxy" to communicate easily with the MNB's API without the hassle of writing a pile of classes and types and what not.
 
 Types are right out of the box for easy working in TypeScript.
 
 ### Prerequisites
 
-Install the latest (atleast v12) of node, and install the package shown below.
+Install the latest (at least v12) node, and install the package shown below.
 
 * npm v12.x
 
@@ -137,7 +137,7 @@ Install the latest (atleast v12) of node, and install the package shown below.
 
 ### getMnbCurrencies()
 
-Get current quaryable currencies.
+Get current queryable currencies.
 
 ```json
 {
@@ -222,7 +222,7 @@ Get current quaryable currencies.
 ### getMnbRates()
 
 Get current exchange rates.
-The rates are calculated with its unit so the corresponding unit per currency is calculated into it.
+The rates are calculated with it's unit so the corresponding unit per currency is calculated into it.
 
 ```json
 {
@@ -265,7 +265,7 @@ The rates are calculated with its unit so the corresponding unit per currency is
 
 ### getMnbStatus()
 
-Get status and basic infromation about the API.
+Get status and basic information about the API.
 
 ```json
 {
@@ -409,15 +409,10 @@ _For more examples, please refer to this `README.md` as a documentation._
 
 <!-- ROADMAP -->
 
-
-
-
-
-
 ## Roadmap
 
 - [x] Add Changelog
-- [x] Add back to top links
+- [x] Add back-to-top links
 - [x] Add Additional Templates w/ Examples
 - [ ] Add more tests.
 - [ ] Add undocumented methods/actions and document them.
@@ -432,7 +427,7 @@ See the [open issues](https://github.com/0xAndrewBlack/node-mnb/issues) for a fu
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
@@ -442,7 +437,7 @@ Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m '✨ feat: Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m '✨ feat: Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 6. Wait. :D
