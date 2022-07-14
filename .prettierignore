@@ -1,0 +1,6 @@
+*.md
+*.example
+.prettierrc
+.gitignore
+package-lock.json
+tsconfig.json
