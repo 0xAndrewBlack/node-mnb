@@ -364,8 +364,6 @@ Get status and basic information about the API.
 Get stored date interval.
 The string should be delimited by a comma but without spaces.
 
-Example: `EUR,USD` rather than `EUR, USD`
-
 ```json
 {
   "startdate": "1949-01-03",
@@ -385,6 +383,7 @@ For example query:
   "currencies": "EUR,USD"
 }
 ```
+>Notice: type `EUR,USD` rather than `EUR, USD` (fix is coming in a later patch)
 
 Result:
 
