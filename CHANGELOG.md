@@ -21,6 +21,8 @@ elog with nice formatting.</li>
 
 ### Changed
 
+<li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/760329b44ad8dbeb8d3ecffa7b29eda8d9d3691b">view commit &bull;</a> ✏️ docs: Fixed  typos.</li>
+<li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/1540f55c99070ec3d64cbe9370797dbf8cfeb144">view commit &bull;</a> 📝 fix: Fixed some mistypes.</li>
 <li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/e1c609015fb3a0675d869d41910ab458024ae8b3">view commit</a> &bull; ✨ Merge pull request #2 from 0xAndrewBlack/feature/1-mnb-base</li>
 <li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/900daf51c3e1773b3106b7f9cb41acb6c760d6fa">view commit</a> &bull; ✨ feat: Base MNB module implemented.</li>
 
