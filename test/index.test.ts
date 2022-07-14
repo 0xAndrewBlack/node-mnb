@@ -1,5 +1,13 @@
-import { hello } from '../src/';
+import { getMnbCurrencies, getMnbStatus, getMnbRates } from '../src/';
 
-test('Method "hello" correctly creates proper greeting.', () => {
-	expect(hello('npm')).toBe('Hello npm!');
+test('Method "getCurrencies" being called correctly.', () => {
+	expect(getMnbCurrencies()).toBeDefined();
+});
+
+test('Method "getMnbStatus" being called correctly.', () => {
+	expect(getMnbStatus()).toBeDefined();
+});
+
+test('Method "getMnbRates" being called correctly.', () => {
+	expect(getMnbRates()).toBeDefined();
 });
