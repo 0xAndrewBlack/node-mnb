@@ -500,4 +500,4 @@ I've included a few of my favorites to kick things off!
 [issues-shield]: https://img.shields.io/github/issues/0xAndrewBlack/node-mnb.svg?style=for-the-badge
 [issues-url]: https://github.com/0xAndrewBlack/node-mnb/issues
 [license-shield]: https://img.shields.io/github/license/0xAndrewBlack/node-mnb.svg?style=for-the-badge
-[license-url]: https://github.com/0xAndrewBlack/node-mnb/blob/master/LICENSE.txt
+[license-url]: https://github.com/0xAndrewBlack/node-mnb/blob/master/LICENSE.md

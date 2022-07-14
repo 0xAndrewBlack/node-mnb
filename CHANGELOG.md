@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-<li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/cf2cf58e9a41197dba5add055a888e48850e3d04">view commit</a> &bull; 🗃️ docs: Chang
+<li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/99e9d7c830bd5c7896dcf84c3cd88b72fee41dd7">view commit</a> &bull; 🗃️ docs: Chang
 elog with nice formatting.</li>
 <li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/f5b2617b55cf44443ded58dc3dba2bba9453f72e">view commit</a> &bull; 📝 docs: Added README and simple docs.</li> 
 <li> <a href="https://github.com/0xAndrewBlack/node-mnb/commit/fda2f576d7e463aa57ff274f680a40cf70fc40d0">view commit</a> &bull; 📝 docs: Added starting point for GitHub config files.</li> 
