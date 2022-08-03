@@ -1,10 +1,14 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<div align="center">
+
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -28,8 +32,6 @@
     <a href="https://github.com/0xAndrewBlack/node-mnb/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -57,8 +59,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -73,8 +73,6 @@ Here's why:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
 The project is built with a few packages.
@@ -83,8 +81,6 @@ The project is built with a few packages.
 - `xml2js` - https://www.npmjs.com/package/xml2js
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -130,8 +126,6 @@ Install the latest (at least v12) node, and install the package shown below.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -141,125 +135,66 @@ Get current queryable currencies.
 
 ```json
 [
-  "HUF",
-  "EUR",
-  "AUD",
-  "BGN",
-  "BRL",
-  "CAD",
-  "CHF",
-  "CNY",
-  "CZK",
-  "DKK",
-  "GBP",
-  "HKD",
-  "HRK",
-  "IDR",
-  "ILS",
-  "INR",
-  "ISK",
-  "JPY",
-  "KRW",
-  "MXN",
-  "MYR",
-  "NOK",
-  "NZD",
-  "PHP",
-  "PLN",
-  "RON",
-  "RSD",
-  "RUB",
-  "SEK",
-  "SGD",
-  "THB",
-  "TRY",
-  "UAH",
-  "USD",
-  "ZAR",
-  "ATS",
-  "AUP",
-  "BEF",
-  "BGL",
-  "CSD",
-  "CSK",
-  "DDM",
-  "DEM",
-  "EEK",
-  "EGP",
-  "ESP",
-  "FIM",
-  "FRF",
-  "GHP",
-  "GRD",
-  "IEP",
-  "ITL",
-  "KPW",
-  "KWD",
-  "LBP",
-  "LTL",
-  "LUF",
-  "LVL",
-  "MNT",
-  "NLG",
-  "OAL",
-  "OBL",
-  "OFR",
-  "ORB",
-  "PKR",
-  "PTE",
-  "ROL",
-  "SDP",
-  "SIT",
-  "SKK",
-  "SUR",
-  "VND",
-  "XEU",
-  "XTR",
-  "YUD"
+  "HUF", "EUR", "AUD", "BGN", "BRL",
+  "CAD", "CHF", "CNY", "CZK", "DKK",
+  "GBP", "HKD", "HRK", "IDR", "ILS",
+  "INR", "ISK", "JPY", "KRW", "MXN",
+  "MYR", "NOK", "NZD", "PHP", "PLN",
+  "RON", "RSD", "RUB", "SEK", "SGD",
+  "THB", "TRY", "UAH", "USD", "ZAR",
+  "ATS", "AUP", "BEF", "BGL", "CSD",
+  "CSK", "DDM", "DEM", "EEK", "EGP",
+  "ESP", "FIM", "FRF", "GHP", "GRD",
+  "IEP", "ITL", "KPW", "KWD", "LBP",
+  "LTL", "LUF", "LVL", "MNT", "NLG",
+  "OAL", "OBL", "OFR", "ORB", "PKR",
+  "PTE", "ROL", "SDP", "SIT", "SKK",
+  "SUR", "VND", "XEU", "XTR", "YUD"
 ]
 ```
 
 ### getMnbRates()
 
 Get current exchange rates.
-The rates are calculated with it's unit so the corresponding unit per currency is calculated into it.
+
+>Note: The rates are calculated with it's unit so the corresponding unit per currency is calculated into it.
 
 ```json
 {
-  "AUD": 275.67,
-  "BGN": 209.53,
-  "BRL": 75.84,
-  "CAD": 313.19,
-  "CHF": 415.44,
-  "CNY": 60.64,
-  "CZK": 16.8,
-  "DKK": 55.07,
-  "EUR": 409.82,
-  "GBP": 484.38,
-  "HKD": 52.1,
-  "HRK": 54.6,
-  "IDR": 0.0273,
-  "ILS": 117.61,
-  "INR": 5.12,
-  "ISK": 2.96,
-  "JPY": 2.9408,
-  "KRW": 0.31079999999999997,
-  "MXN": 19.6,
-  "MYR": 92.03,
-  "NOK": 39.97,
-  "NZD": 249.29,
-  "PHP": 7.26,
-  "PLN": 84.67,
-  "RON": 82.93,
-  "RSD": 3.49,
-  "RUB": 7.03,
-  "SEK": 38.58,
-  "SGD": 291.83,
-  "THB": 11.21,
-  "TRY": 23.38,
-  "UAH": 13.85,
-  "USD": 409,
-  "ZAR": 23.94
+  "AUD": 269.37,
+  "BGN": 202.47,
+  "BRL": 73.63,
+  "CAD": 302.26,
+  "CHF": 405.23,
+  "CNY": 57.55,
+  "CZK": 16.07,
+  "DKK": 53.2,
+  "EUR": 396.01,
+  "GBP": 473.36,
+  "HKD": 49.52,
+  "HRK": 52.68,
+  "IDR": 0.026099999999999998,
+  "ILS": 115.51,
+  "INR": 4.92,
+  "ISK": 2.84,
+  "JPY": 2.9179000000000004,
+  "KRW": 0.2964,
+  "MXN": 18.79,
+  "MYR": 87.21,
+  "NOK": 40.01,
+  "NZD": 243.25,
+  "PHP": 6.98,
+  "PLN": 84.22,
+  "RON": 80.36,
+  "RSD": 3.37,
+  "RUB": 6.44,
+  "SEK": 38.02,
+  "SGD": 281.36,
+  "THB": 10.72,
+  "TRY": 21.64,
+  "UAH": 10.52,
+  "USD": 388.7,
+  "ZAR": 23.23
 }
 ```
 
@@ -269,92 +204,24 @@ Get status and basic information about the API.
 
 ```json
 {
-  "FirstDate": [
-    "1949-01-03"
-  ],
-  "LastDate": [
-    "2022-07-14"
-  ],
-  "Currencies": [
-    {
-      "Curr": [
-        "HUF",
-        "EUR",
-        "AUD",
-        "BGN",
-        "BRL",
-        "CAD",
-        "CHF",
-        "CNY",
-        "CZK",
-        "DKK",
-        "GBP",
-        "HKD",
-        "HRK",
-        "IDR",
-        "ILS",
-        "INR",
-        "ISK",
-        "JPY",
-        "KRW",
-        "MXN",
-        "MYR",
-        "NOK",
-        "NZD",
-        "PHP",
-        "PLN",
-        "RON",
-        "RSD",
-        "RUB",
-        "SEK",
-        "SGD",
-        "THB",
-        "TRY",
-        "UAH",
-        "USD",
-        "ZAR",
-        "ATS",
-        "AUP",
-        "BEF",
-        "BGL",
-        "CSD",
-        "CSK",
-        "DDM",
-        "DEM",
-        "EEK",
-        "EGP",
-        "ESP",
-        "FIM",
-        "FRF",
-        "GHP",
-        "GRD",
-        "IEP",
-        "ITL",
-        "KPW",
-        "KWD",
-        "LBP",
-        "LTL",
-        "LUF",
-        "LVL",
-        "MNT",
-        "NLG",
-        "OAL",
-        "OBL",
-        "OFR",
-        "ORB",
-        "PKR",
-        "PTE",
-        "ROL",
-        "SDP",
-        "SIT",
-        "SKK",
-        "SUR",
-        "VND",
-        "XEU",
-        "XTR",
-        "YUD"
-      ]
-    }
+  "firstDate": "1949-01-03",
+  "lastDate": "2022-08-03",
+  "currencies": [
+    "HUF", "EUR", "AUD", "BGN", "BRL",
+    "CAD", "CHF", "CNY", "CZK", "DKK",
+    "GBP", "HKD", "HRK", "IDR", "ILS",
+    "INR", "ISK", "JPY", "KRW", "MXN",
+    "MYR", "NOK", "NZD", "PHP", "PLN",
+    "RON", "RSD", "RUB", "SEK", "SGD",
+    "THB", "TRY", "UAH", "USD", "ZAR",
+    "ATS", "AUP", "BEF", "BGL", "CSD",
+    "CSK", "DDM", "DEM", "EEK", "EGP",
+    "ESP", "FIM", "FRF", "GHP", "GRD",
+    "IEP", "ITL", "KPW", "KWD", "LBP",
+    "LTL", "LUF", "LVL", "MNT", "NLG",
+    "OAL", "OBL", "OFR", "ORB", "PKR",
+    "PTE", "ROL", "SDP", "SIT", "SKK",
+    "SUR", "VND", "XEU", "XTR", "YUD"
   ]
 }
 ```
@@ -362,49 +229,40 @@ Get status and basic information about the API.
 ### getMnbDateInterval()
 
 Get stored date interval.
-The string should be delimited by a comma but without spaces.
 
 ```json
 {
-  "startdate": "1949-01-03",
-  "enddate": "2022-07-14"
+  "startDate": "1949-01-03",
+  "endDate": "2022-08-03"
 }
 ```
 
 ### getMnbHistoricalRates(startDate, endDate, currenciesString)
 
-Get historical rates and units.
+Get historical rates and units based on the supplied query.
 
 For example query: 
 ```json
 {
-  "startDate": "2022-7-14",
-  "endDate": "2022-7-14",
-  "currencies": "EUR,USD"
+  "startDate": "2022-07-14",
+  "endDate": "2022-08-03",
+  "currencies": "EUR, USD, JPY"
 }
 ```
->Notice: type `EUR,USD` rather than `EUR, USD` (fix is coming in a later patch)
 
 Result:
 
 ```json
 {
-  "EUR": {
-    "unit": "1",
-    "rate": "355.10"
-  },
-  "USD": {
-    "unit": "1",
-    "rate": "312.86"
-  }
+  "EUR": { "unit": 1, "rate": 396.01 },
+  "JPY": { "unit": 100, "rate": 291.79 },
+  "USD": { "unit": 1, "rate": 388.7 }
 }
 ```
 
 _For more examples, please refer to this `README.md` as a documentation._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 
@@ -413,15 +271,13 @@ _For more examples, please refer to this `README.md` as a documentation._
 - [x] Add Changelog
 - [x] Add back-to-top links
 - [x] Add Additional Templates w/ Examples
-- [ ] Add more tests.
+- [x] Add more tests.
 - [ ] Add undocumented methods/actions and document them.
 - [ ] Report useless features and methods to the MNB.
 
 See the [open issues](https://github.com/0xAndrewBlack/node-mnb/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -443,8 +299,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -452,11 +306,7 @@ The name `MNB` and corresponding logos are a trademark of MNB (Hungarian Nationa
 
 Distributed under the GPL v3 License. See `LICENSE.md` for more information.
 
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -467,8 +317,6 @@ Project Link: [https://github.com/0xAndrewBlack/node-mnb](https://github.com/0xA
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -477,11 +325,10 @@ I've included a few of my favorites to kick things off!
 
 * [mondalaci](https://github.com/mondalaci/mnb-rates) - Starter WSDL method source.
 * [Choose an Open Source License](https://choosealicense.com) - License template
+* [README Template](https://github.com/othneildrew/Best-README-Template) - Readme template
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet) - Emojis
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
