@@ -1,13 +1,7 @@
-import { getMnbCurrencies, getMnbStatus, getMnbRates } from '../src/';
+import { soapServiceUrl } from '../src/';
 
-test('Method "getCurrencies" being called correctly.', () => {
-	expect(getMnbCurrencies()).toBeDefined();
-});
-
-test('Method "getMnbStatus" being called correctly.', () => {
-	expect(getMnbStatus()).toBeDefined();
-});
-
-test('Method "getMnbRates" being called correctly.', () => {
-	expect(getMnbRates()).toBeDefined();
+describe('Default constant tests.', () => {
+	test('Constant tests', () => {
+		expect(soapServiceUrl).toBe('https://www.mnb.hu/arfolyamok.asmx?wsdl');
+	});
 });
