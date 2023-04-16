@@ -75,5 +75,3 @@ export async function getHistoricalRates(startDate: string, endDate: string, cur
 
 	return history;
 }
-
-getMnbRates().then((d) => console.log(d));
